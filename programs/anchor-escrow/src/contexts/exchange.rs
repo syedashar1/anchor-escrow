@@ -14,7 +14,7 @@ pub struct Exchange<'info> {
     pub taker: Signer<'info>,
     #[account(mut)]
     pub initializer: SystemAccount<'info>,
-    pub mint_a: Box<Account<'info, Mint>>,
+    pub mint_a: Box<Account<'info, Mint>>, // Box is used to handle accounts that are large and dynamically allocated. When an account is stored in a Box, the data is stored on the heap, which allows for more efficient memory usage, especially when dealing with large structs or data that may grow over time.
     pub mint_b: Box<Account<'info, Mint>>,
     #[account(
         init_if_needed,

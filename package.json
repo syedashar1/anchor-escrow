@@ -13,15 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ironaddicteddog/anchor-escrow.git"
+    "url": "git+https://github.com/syedashar1/anchor-escrow.git"
   },
   "keywords": [],
-  "author": "ironaddciteddog",
+  "author": "syedashar1",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ironaddicteddog/anchor-escrow/issues"
-  },
-  "homepage": "https://github.com/ironaddicteddog/anchor-escrow#readme",
   "dependencies": {
     "@coral-xyz/anchor": "^0.27.0",
     "@solana/spl-token": "^0.3.7"

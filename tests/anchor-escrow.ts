@@ -114,7 +114,7 @@ describe("anchor-escrow", () => {
       .then(log);
   });
 
-  xit("Cancel", async () => {
+  it("Cancel", async () => {
     await program.methods
       .cancel()
       .accounts({ ...accounts })
