@@ -2,7 +2,8 @@
 
 #### Initialize
 
-![](https://hackmd.io/_uploads/Hkn1gdtuj.png)
+![image](https://github.com/user-attachments/assets/894a7821-28a6-4705-8ff2-3b1c46155f65)
+
 
 `Initializer` can send a transaction to the escrow program to initialize the Vault. In this transaction, two new accounts: `Vault Authority's ATA` and `Escrow State`, will be created and tokens (Token A) to be exchanged will be transferred from `Initializer` to `Vault`(short for vault authority's ATA).
 
